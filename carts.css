@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: RGB(145,40,140);
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+.cart-items {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cart-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
